@@ -22,7 +22,7 @@ def main():
     st.title("Semi Auto ML APP")
     st.text("Using Streamlit")
 
-    activities = ["EDA","Plot","Model Building","About"]
+    activities = ["EDA","Plot","Model Building"]
 
     choice = st.sidebar.selectbox("Select Activity",activities)
 
