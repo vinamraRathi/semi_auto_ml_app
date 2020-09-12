@@ -165,8 +165,5 @@ def main():
             if st.checkbox("Metric as JSON"):
                 st.json(all_models)
 
-    elif choice == 'About':
-        st.subheader("About this project")
-
 if __name__ == "__main__":
     main()

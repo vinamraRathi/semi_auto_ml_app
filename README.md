@@ -19,7 +19,13 @@ Common Datasets For ML Explorer App Built with Streamlit. It mainly contains act
    - Box Graph
    - Kernel Density Estimation(KDE) Graph
 
-3. Insights for Model Building:
+3. Model Building:
    - Show Features
    - Show Target
-   - Metric as table or JSON
+   - Metric as table or JSON shows the model accuracy and standard deviation on pre-defined ML models: 
+     - Logistic Regression
+     - Linear Discriminant Analysis
+     - K Neigbour Classifier
+     - Descision Tree Classifier
+     - Gaussian Naive Bayes
+     - SVM 
